@@ -11,7 +11,7 @@ import Vinc from "../../public/Images/vinc.png";
 function HeroSection() {
   return (
     <div>
-      <img src={HeroImage} alt="" className="w-full h-[530px] object-fill lg:h-[520px] absolute" />
+      <img src={HeroImage} alt="" className="w-full h-[660px] object-fill lg:h-[520px] absolute" />
       <div className="flex flex-wrap lg:flex-nowrap relative">
         <div className="hero-1 w-full lg:w-[40%]">
           <div className="relative">
@@ -100,6 +100,48 @@ function HeroSection() {
             </div>
           </div>
           <div className="flex flex-wrap justify-end">
+            <div className="h-[73px] w-[106px] box font-[45px] mr-2 mt-2">
+              <p className="text-white font-medium text-[45px] font-header">11</p>
+            </div>
+            <div className="h-[73px] w-[106px] box-red font-[45px] mr-2 mt-2">
+              <p className="text-white font-medium text-[45px] font-header">12</p>
+            </div>
+          </div>
+        </div>
+        <div className="hero-3 w-full lg:w-[20%] mx-3 lg:hidden">
+          <div className="flex flex-wrap justify-start">
+            <div className="h-[73px] w-[106px] box font-[45px] mr-2 mt-2">
+              <p className="text-white font-medium text-[45px] font-header">1</p>
+            </div>
+            <div className="h-[73px] w-[106px] box-red font-[45px] mr-2 mt-2">
+              <p className="text-white font-medium text-[45px] font-header">2</p>
+            </div>
+            <div className="h-[73px] w-[106px] box font-[45px] mr-2 mt-2">
+              <p className="text-white font-medium text-[45px] font-header">3</p>
+            </div>
+            <div className="h-[73px] w-[106px] box-red font-[45px] mr-2 mt-2">
+              <p className="text-white font-medium text-[45px] font-header">4</p>
+            </div>
+            <div className="h-[73px] w-[106px] box font-[45px] mr-2 mt-2">
+              <p className="text-white font-medium text-[45px] font-header">5</p>
+            </div>
+            <div className="h-[73px] w-[106px] box-red font-[45px] mr-2 mt-2">
+              <p className="text-white font-medium text-[45px] font-header">6</p>
+            </div>
+          </div>
+          <div className="flex flex-wrap justify-start">
+            <div className="h-[73px] w-[106px] box font-[45px] mr-2 mt-2">
+              <p className="text-white font-medium text-[45px] font-header">7</p>
+            </div>
+            <div className="h-[73px] w-[106px] box-red font-[45px] mr-2 mt-2">
+              <p className="text-white font-medium text-[45px] font-header">8</p>
+            </div>
+            <div className="h-[73px] w-[106px] box font-[45px] mr-2 mt-2">
+              <p className="text-white font-medium text-[45px] font-header">9</p>
+            </div>
+            <div className="h-[73px] w-[106px] box-red font-[45px] mr-2 mt-2">
+              <p className="text-white font-medium text-[45px] font-header">10</p>
+            </div>
             <div className="h-[73px] w-[106px] box font-[45px] mr-2 mt-2">
               <p className="text-white font-medium text-[45px] font-header">11</p>
             </div>
