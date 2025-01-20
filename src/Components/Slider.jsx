@@ -8,7 +8,7 @@ function Slider() {
     return (
         <div className='mt-[6rem] lg:mt-[7rem]'>
             <div className='w-full'>
-                <h1 className='text-[30px] sm:text-[25px] md:text-[30px] lg:text-[32px] font-normal image-text border-b-2 w-[90%] md:w-[315px] lg:w-[462px] border-[#FF0052] mx-auto text-center'>
+                <h1 className='text-[20px] sm:text-[25px] md:text-[30px] lg:text-[34px] font-normal image-text border-b-2 w-[90%] md:w-[315px] lg:w-[462px] border-[#FF0052] mx-auto text-center'>
                     All Tickets and Games Reviews
                 </h1>
             </div>
