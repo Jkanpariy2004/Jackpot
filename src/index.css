@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box {
+    background: radial-gradient(50.68% 91.5% at 50% 49.32%, #335AAB 0%, #1C3C82 35.67%, #041740 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.box-red {
+    background: radial-gradient(50.68% 91.5% at 50% 49.32%, #FF4646 0%, #D92626 35.67%, #400404 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@font-face {
+    font-family: 'First Job';
+    src: url('/fonts/FirstJob.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.image-text {
+    font-family: 'First Job', sans-serif;
+}
