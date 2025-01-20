@@ -8,7 +8,9 @@ function Slider() {
     return (
         <div className='mt-[6rem] lg:mt-[7rem]'>
             <div className='w-full'>
-                <h1 className='text-[25px] lg:text-[36px] font-normal image-text border-b-2 w-[315px] lg:w-[462px] border-[#FF0052] mx-auto'>All Tickets and Games Reviews</h1>
+                <h1 className='text-[20px] sm:text-[25px] md:text-[30px] lg:text-[32px] font-normal image-text border-b-2 w-[90%] md:w-[315px] lg:w-[462px] border-[#FF0052] mx-auto text-center'>
+                    All Tickets and Games Reviews
+                </h1>
             </div>
             <div className="w-full mt-5 font-header flex justify-center items-center mb-[9rem] flex-wrap">
                 <div className='w-full sm:w-[270px] h-[391px] mx-3 mb-5 sm:mb-0 mt-3'>

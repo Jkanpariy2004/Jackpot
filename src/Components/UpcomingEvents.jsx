@@ -12,8 +12,10 @@ function UpcomingEvents() {
             <div className="w-full h-[690px] relative mt-[7rem]">
                 <img src={section} alt="" className='w-full h-full object-cover absolute' />
                 <div className="w-full h-full absolute bg-[#061651] opacity-[90%]">
-                    <div className='w-full mt-[2.5rem]'>
-                        <p className='text-white image-text text-[36px] border-b-2 w-[246px] mx-auto border-[#FF0052]'>Upcoming Events</p>
+                    <div className='w-full mt-[2.5rem] text-center'>
+                        <p className='text-white image-text text-[28px] sm:text-[32px] md:text-[36px] border-b-2 w-[90%] sm:w-[246px] mx-auto border-[#FF0052]'>
+                            Upcoming Events
+                        </p>
                     </div>
                     {/* Swiper for small and medium screens, and static display for larger screens */}
                     <div className="hidden lg:block">

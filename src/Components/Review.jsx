@@ -7,7 +7,7 @@ import Review5 from '../../public/Images/Review/Review-5.png';
 
 function Review() {
     return (
-        <>
+        <div className='mx-5'>
             <div className="w-full text-center mt-[6rem]">
                 <p className="image-text font-normal text-25px lg:text-[36px] border-b-2 border-[#FF0052] w-[195px] lg:w-[435px] mx-auto">
                     Who we review put to the test
@@ -26,7 +26,7 @@ function Review() {
                 <div className="mb-5 md:mb-0 mr-5">
                     <img src={Review4} alt="" className="w-[250px] md:w-[300px]" />
                 </div>
-                <div className="mb-5 md:mb-0 mr-5">
+                <div className="mb-5 md:mb-0">
                     <img src={Review5} alt="" className="w-[250px] md:w-[300px]" />
                 </div>
             </div>
@@ -35,7 +35,7 @@ function Review() {
                     <p className="text-white font-normal text-[18px]">Ask us a Question</p>
                 </button>
             </div>
-        </>
+        </div>
     );
 }
 

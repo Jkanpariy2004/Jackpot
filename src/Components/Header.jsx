@@ -16,7 +16,6 @@ function Header() {
                         <span className="ml-2">ONLINE</span>
                     </p>
                 </div>
-
                 <nav className="hidden md:flex">
                     <ul className="flex space-x-6">
                         <li className="text-[#FF0052] cursor-pointer border-b-2 border-[#FF0052]">Section 1</li>
@@ -26,8 +25,6 @@ function Header() {
                         <li className="hover:text-[#FF0052] cursor-pointer font-logo">Lotterie</li>
                     </ul>
                 </nav>
-
-                {/* Toggle Button for Mobile */}
                 <div className="md:hidden flex items-center">
                     <button onClick={toggleMenu} className="text-white focus:outline-none">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-6 w-6">
