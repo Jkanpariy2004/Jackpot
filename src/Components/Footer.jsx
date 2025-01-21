@@ -46,10 +46,10 @@ function Footer() {
                         </div>
                         <div>
                             <ul className='flex justify-center space-x-4 md:space-x-8'>
-                                <li><FaFacebook className='w-[20px] md:w-[24px] h-[20px] md:h-[25px] text-white' /></li>
-                                <li><FaTwitter className='w-[20px] md:w-[24px] h-[20px] md:h-[25px] text-white' /></li>
-                                <li><FaVimeoV className='w-[20px] md:w-[24px] h-[20px] md:h-[25px] text-white' /></li>
-                                <li><FaYoutube className='w-[20px] md:w-[24px] h-[20px] md:h-[25px] text-white' /></li>
+                                <li><FaFacebook className='w-[20px] md:w-[24px] h-[20px] md:h-[25px] text-white cursor-pointer' /></li>
+                                <li><FaTwitter className='w-[20px] md:w-[24px] h-[20px] md:h-[25px] text-white cursor-pointer' /></li>
+                                <li><FaVimeoV className='w-[20px] md:w-[24px] h-[20px] md:h-[25px] text-white cursor-pointer' /></li>
+                                <li><FaYoutube className='w-[20px] md:w-[24px] h-[20px] md:h-[25px] text-white cursor-pointer' /></li>
                             </ul>
                         </div>
                     </div>
