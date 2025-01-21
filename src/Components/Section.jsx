@@ -76,7 +76,7 @@ function Section() {
                     <div className='lg:flex justify-center'>
                         <div className='font-header'>
                             <p className='lg:text-left text-center text-white font-normal text-[12px] lg:text-[24px] mt-[15px] lg:mt-[30px] mb-[20px]'>Try our mini -games for free and find out your favorites</p>
-                            <div className="flex mx-3 gap-4 justify-center">
+                            <div className="flex mx-3 gap-2 justify-center">
                                 <div className="w-[33.33%] relative group">
                                     <img src={section1} className='w-[127.78px] h-[144.44px]' alt="" />
                                     <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-0 rounded-lg m-1 transition-all duration-300 ease-in-out group-hover:bg-opacity-75">
