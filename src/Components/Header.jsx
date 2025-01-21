@@ -9,9 +9,9 @@ function Header() {
 
     return (
         <header className="bg-[#162149] text-white">
-            <div className="container mx-auto flex justify-between items-center h-[100px]">
+            <div className="container mx-auto flex justify-between items-center h-[68px] lg:h-[100px]">
                 <div className="text-2xl font-bold">
-                    <p className='font-normal text-[41px] font-logo sm:text-[28px] md:text-[41px]'>
+                    <p className='font-normal text-[20px] font-logo sm:text-[20px] md:text-[35px]'>
                         <span className="text-[#FF0052]">JACKPOT</span>
                         <span className="ml-2">ONLINE</span>
                     </p>
