@@ -20,7 +20,7 @@ function HeroSection() {
               <p className="text-[#FFFFFF] uppercase font-normal text-[20px] lg:text-[28px] image-text">Genuine Money Transection</p>
             </div>
             <div className='block lg:flex mt-[2rem] lg:mt-[4.4rem]'>
-              <div className="bg-[#232D6A] rounded-xl h-[54px] lg:h-[90px] relative mx-3 flex items-center w-[400px] lg:w-[820px]">
+              <div className="bg-[#232D6A] rounded-xl h-[54px] lg:h-[90px] relative mx-3 flex items-center w-[350px] lg:w-[820px]">
                 <div className="flex flex-wrap justify-center items-center mx-2 lg:mx-1 my-2 container">
                   <div className="w-[60%] flex flex-row items-center">
                     <div className='flex flex-col items-center justify-center mx-2'>
@@ -40,11 +40,10 @@ function HeroSection() {
                     <button className='w-[95px] lg:w-[170px] h-[27px] lg:h-[46px] rounded-sm lg:rounded-lg bg-[#FF0052] shadow-[0_4px_6px_#B1013A] hover:shadow-none hover:transform hover:scale-95 transition-all duration-300'>
                       <p className='font-header font-normal text-[12px] lg:text-[18px] text-white'>Discover now</p>
                     </button>
-
                   </div>
                 </div>
               </div>
-              <div className="bg-[#232D6A] rounded-xl h-[54px] lg:h-[90px] relative mx-3 flex items-center w-[400px] lg:w-[820px] lg:mt-0 mt-3">
+              <div className="bg-[#232D6A] rounded-xl h-[54px] lg:h-[90px] relative mx-3 flex items-center w-[350px] lg:w-[820px] lg:mt-0 mt-3">
                 <div className="flex flex-wrap justify-center items-center mx-8 my-2 h-[100px] w-full">
                   <div className="w-[25%] flex flex-col items-center justify-center cursor-pointer">
                     <img src={Vinc} alt="" className='lg:w-[58px] w-[38px] h-[32.93px] lg:h-[50px]' />

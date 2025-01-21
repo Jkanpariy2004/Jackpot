@@ -77,22 +77,38 @@ function Section() {
                         <div className='font-header'>
                             <p className='lg:text-left text-center text-white font-normal text-[12px] lg:text-[24px] mt-[15px] lg:mt-[30px] mb-[20px]'>Try our mini -games for free and find out your favorites</p>
                             <div className="flex mx-3 gap-4 justify-center">
-                                <div className='w-[33.33%]'>
+                                <div className="w-[33.33%] relative group">
                                     <img src={section1} className='w-[127.78px] h-[144.44px]' alt="" />
-                                </div>
-                                <div className='w-[33.33%] relative'>
-                                    <img src={section2} className='w-[127.78px] h-[144.44px]' alt="" />
-                                    <div className='absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 rounded-lg m-1'>
-                                        <div className='text-center'>
-                                            <p className='text-white text-[14px] lg:text-[26px] mb-3'>777 Slots</p>
-                                            <button className='bg-[#FF0052] shadow-[0_4px_6px_#B1013A] hover:shadow-none hover:transform hover:scale-95 transition-all duration-300 w-[86px] lg:w-[155px] h-[28px] lg:h-[46px] rounded-sm'>
-                                                <p className='font-normal text-[12px] lg:text-[18px] text-white'>Play Now</p>
+                                    <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-0 rounded-lg m-1 transition-all duration-300 ease-in-out group-hover:bg-opacity-75">
+                                        <div className="opacity-0 transform scale-95 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100 text-center">
+                                            <p className="text-white text-[14px] lg:text-[26px] mb-3">Spin</p>
+                                            <button className="bg-[#FF0052] shadow-[0_4px_6px_#B1013A] hover:shadow-none hover:transform hover:scale-95 transition-all duration-300 w-[86px] lg:w-[155px] h-[28px] lg:h-[46px] rounded-sm">
+                                                <p className="font-normal text-[12px] lg:text-[18px] text-white">Play Now</p>
                                             </button>
                                         </div>
                                     </div>
                                 </div>
-                                <div className='w-[33.33%]'>
+                                <div className="w-[33.33%] relative group">
+                                    <img src={section2} className="w-[127.78px] h-[144.44px]" alt="" />
+                                    <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-0 rounded-lg m-1 transition-all duration-300 ease-in-out group-hover:bg-opacity-75">
+                                        <div className="opacity-0 transform scale-95 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100 text-center">
+                                            <p className="text-white text-[14px] lg:text-[26px] mb-3">777 Slots</p>
+                                            <button className="bg-[#FF0052] shadow-[0_4px_6px_#B1013A] hover:shadow-none hover:transform hover:scale-95 transition-all duration-300 w-[86px] lg:w-[155px] h-[28px] lg:h-[46px] rounded-sm">
+                                                <p className="font-normal text-[12px] lg:text-[18px] text-white">Play Now</p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="w-[33.33%] relative group">
                                     <img src={section3} className='w-[127.78px] h-[144.44px]' alt="" />
+                                    <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-0 rounded-lg m-1 transition-all duration-300 ease-in-out group-hover:bg-opacity-75">
+                                        <div className="opacity-0 transform scale-95 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100 text-center">
+                                            <p className="text-white text-[14px] lg:text-[26px] mb-3">777 Slots</p>
+                                            <button className="bg-[#FF0052] shadow-[0_4px_6px_#B1013A] hover:shadow-none hover:transform hover:scale-95 transition-all duration-300 w-[86px] lg:w-[155px] h-[28px] lg:h-[46px] rounded-sm">
+                                                <p className="font-normal text-[12px] lg:text-[18px] text-white">Play Now</p>
+                                            </button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div className='w-[305px] m-auto h-[169px] bg-[#FF0052] mt-7 rounded-lg p-[20px] text-white text-center'>
