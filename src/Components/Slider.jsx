@@ -71,7 +71,7 @@ function Slider() {
                                     </div>
                                     <div className='w-full'>
                                         <p className='text-center mt-2 w-[74px] mx-auto font-normal text-[18px]'>Best For</p>
-                                        <img src="/Images/Slider/Slider-card-border.png" className='mx-auto w-[64.56px] lg:w-[73.88px] h-[100px]' alt="" />
+                                        <img src="/Images/Slider/Slider-card-border.png" className='mx-auto w-[64.56px] lg:w-[73.88px]' alt="" />
                                     </div>
                                     <div className="w-full mt-3">
                                         <p className='text-center font-light text-[#8A8A8A] my-1 text-[14px]'>
