@@ -16,7 +16,7 @@ function Section() {
                             MINI - Game Section
                         </h1>
                     </div>
-                    <div className='lg:flex justify-center'>
+                    <div className='lg:flex justify-center container'>
                         <div className='font-header'>
                             <p className='lg:text-left text-center text-white font-normal text-[12px] lg:text-[24px] mt-[15px] lg:mt-[30px] mb-[20px]'>Try our mini -games for free and find out your favorites</p>
                             <div className="flex justify-center">

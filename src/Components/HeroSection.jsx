@@ -13,7 +13,7 @@ function HeroSection() {
     <div>
       <img src={HeroImage} alt="" className="w-full h-[440px] object-cover lg:object-fill lg:h-[510px] absolute" />
       <div className="flex flex-wrap lg:flex-nowrap relative">
-        <div className="hero-1 w-full lg:w-[85%]">
+        <div className="hero-1 w-full lg:w-[80%]">
           <div className="relative">
             <div className="pt-[5rem] lg:pt-[7rem] pl-4 lg:pl-[7rem]">
               <h1 className="text-[#FFEA30] text-[25px] lg:text-[60px] font-medium image-text">Welcome to <br /> Online Casino</h1>
@@ -21,9 +21,9 @@ function HeroSection() {
             </div>
             <div className='block lg:flex mt-[2rem] lg:mt-[4.4rem]'>
               <div className="bg-[#232D6A] rounded-xl h-[54px] lg:h-[90px] relative mx-3 flex items-center w-[400px] lg:w-[820px]">
-                <div className="flex flex-wrap justify-center items-center mx-2 lg:mx-5 my-2 container">
+                <div className="flex flex-wrap justify-center items-center mx-2 lg:mx-1 my-2 container">
                   <div className="w-[60%] flex flex-row items-center">
-                    <div className='flex flex-col items-center justify-center mx-2 lg:mx-5'>
+                    <div className='flex flex-col items-center justify-center mx-2'>
                       <img src={Roulette} alt="" className='lg:w-[40px] lg:h-[40px] h-[20px] w-[20px]' />
                       <p className='font-normal text-[12px] lg:text-[14px] text-white font-header'>Roulette</p>
                     </div>
@@ -62,7 +62,7 @@ function HeroSection() {
             </div>
           </div>
         </div>
-        <div className="hero-3 w-full hidden lg:block lg:w-[15%]">
+        <div className="hero-3 w-full hidden lg:block lg:w-[20%]">
           <div className="flex flex-wrap justify-end cursor-pointer">
             <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mr-2 mt-2">
               <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">1</p>

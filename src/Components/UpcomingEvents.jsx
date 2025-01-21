@@ -19,9 +19,9 @@ function UpcomingEvents() {
                     </div>
 
                     <div className="hidden lg:block">
-                        <div className="flex flex-wrap justify-center mt-2">
+                        <div className="container m-auto justify-center flex mt-2">
                             
-                            <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2 relative'>
+                            <div className='w-[375px] h-[450px] p-2 relative'>
                                 <div className='relative'>
                                     <img src={Upcoming1} alt="" className='w-full h-[500px]' />
                                     <div className='bg-[#FF0052] w-[48px] h-[60px] flex flex-col font-header text-white text-center absolute top-0 right-0 rounded-tr-[10px] items-center justify-center'>
@@ -41,7 +41,7 @@ function UpcomingEvents() {
                                 </div>
                             </div>
                             
-                            <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2 relative'>
+                            <div className='w-[375px] h-[450px] p-2 relative'>
                                 <div className='relative'>
                                     <img src={Upcoming2} alt="" className='w-full h-[500px]' />
                                     <div className='bg-[#FF0052] w-[48px] h-[60px] flex flex-col font-header text-white text-center absolute top-0 right-0 rounded-tr-[10px] items-center justify-center'>
@@ -61,7 +61,7 @@ function UpcomingEvents() {
                                 </div>
                             </div>
                             
-                            <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2 relative'>
+                            <div className='w-[375px] h-[450px] p-2 relative'>
                                 <div className='relative'>
                                     <img src={Upcoming3} alt="" className='w-full h-[500px]' />
                                     <div className='bg-[#FF0052] w-[48px] h-[60px] flex flex-col font-header text-white text-center absolute top-0 right-0 rounded-tr-[10px] items-center justify-center'>

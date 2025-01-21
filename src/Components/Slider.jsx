@@ -17,7 +17,7 @@ function Slider() {
     ];
 
     return (
-        <div className='mt-[6rem] lg:mt-[7rem]'>
+        <div className='mt-[6rem] lg:mt-[5rem]'>
             <div className='w-full'>
                 <h1 className='text-[24px] sm:text-[25px] md:text-[30px] lg:text-[36px] font-normal image-text border-b-2 w-[302px] lg:w-[462px] border-[#FF0052] mx-auto text-center'>
                     All Tickets and Games Reviews
@@ -28,10 +28,10 @@ function Slider() {
                     spaceBetween={20}
                     pagination={{ clickable: true }}
                     breakpoints={{
-                        320: { slidesPerView: 1, spaceBetween: 10 },
-                        640: { slidesPerView: 2, spaceBetween: 20 },
-                        768: { slidesPerView: 3, spaceBetween: 30 },
-                        1024: { slidesPerView: 4, spaceBetween: 40 },
+                        320: { slidesPerView: 1, spaceBetween: 5 },
+                        640: { slidesPerView: 2, spaceBetween: 10 },
+                        768: { slidesPerView: 3, spaceBetween: 15 },
+                        1024: { slidesPerView: 4, spaceBetween: 20 },
                     }}
                     loop={true}
                 >
