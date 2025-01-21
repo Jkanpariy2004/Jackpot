@@ -114,7 +114,7 @@ function Section() {
                             <div className='w-[305px] m-auto h-[169px] bg-[#FF0052] mt-7 rounded-lg p-[20px] text-white text-center'>
                                 <p className='font-medium text-[18px]'>Don’t Know where to start ?</p>
                                 <br />
-                                <button className='shadow-2xl w-[120px] h-[28px] bg-white rounded-sm'><p className='text-[#FF0052] font-normal text-[12px]'>Choose For me</p></button>
+                                <button className='w-[120px] h-[28px] bg-white rounded-sm shadow-[0_5px_7px_#BDBBBC] hover:shadow-none hover:transform hover:scale-95 transition-all duration-300'><p className='text-[#FF0052] font-normal text-[12px]'>Choose For me</p></button>
                                 <br /><br />
                                 <p className='text-[14px] text-white'>May be brly Fortune can decide for you</p>
                             </div>
