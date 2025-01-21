@@ -9,7 +9,7 @@ function Header() {
 
     return (
         <header className="bg-[#162149] text-white">
-            <div className="container mx-auto flex justify-between items-center h-[100px] px-4">
+            <div className="container mx-auto flex justify-between items-center h-[100px]">
                 <div className="text-2xl font-bold">
                     <p className='font-normal text-[41px] font-logo sm:text-[28px] md:text-[41px]'>
                         <span className="text-[#FF0052]">JACKPOT</span>
@@ -34,7 +34,6 @@ function Header() {
                 </div>
             </div>
 
-            {/* Mobile Menu */}
             <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
                 <ul className="flex flex-col items-center bg-[#162149] py-4 space-y-4">
                     <li className="text-[#FF0052] cursor-pointer">Section 1</li>

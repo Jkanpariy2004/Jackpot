@@ -12,7 +12,7 @@ function Slider() {
                     All Tickets and Games Reviews
                 </h1>
             </div>
-            <div className="w-full mt-5 font-header flex justify-center items-center mb-[9rem] flex-wrap">
+            <div className="container w-full mt-5 font-header flex justify-center items-center mb-[9rem] flex-wrap">
                 <div className='w-full sm:w-[270px] h-[391px] mx-3 mb-5 sm:mb-0 mt-3'>
                     <div className='Slider-image'>
                         <div className='relative w-full h-[72px]'>
@@ -210,8 +210,6 @@ function Slider() {
                         </div>
                     </div>
                 </div>
-
-                {/* Repeat this pattern for remaining sliders */}
             </div>
         </div>
     )
