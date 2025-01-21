@@ -20,7 +20,7 @@ function UpcomingEvents() {
 
                     <div className="hidden lg:block">
                         <div className="container m-auto justify-center flex mt-2">
-                            
+
                             <div className='w-[375px] h-[450px] p-2 relative'>
                                 <div className='relative'>
                                     <img src={Upcoming1} alt="" className='w-full h-[500px]' />
@@ -32,7 +32,7 @@ function UpcomingEvents() {
                                     <div className='absolute bottom-0 left-0 p-4'>
                                         <div className='font-header'>
                                             <p className='text-[#FFEA30] text-[28px] font-semibold'>Estrone lotte</p>
-                                            <p className='font-normal text-[18px] text-white'>Lorem Ipsum is simply dummy text of <br /> the printing and typesetting.</p>
+                                            <p className='font-normal text-[18px] text-white'>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
                                             <button className='bg-[#FF0052] w-[170px] h-[46px] rounded-md mt-2'>
                                                 <p className='font-normal text-[18px] text-white'>Discover now</p>
                                             </button>
@@ -40,7 +40,7 @@ function UpcomingEvents() {
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div className='w-[375px] h-[450px] p-2 relative'>
                                 <div className='relative'>
                                     <img src={Upcoming2} alt="" className='w-full h-[500px]' />
@@ -52,7 +52,7 @@ function UpcomingEvents() {
                                     <div className='absolute bottom-0 left-0 p-4'>
                                         <div className='font-header'>
                                             <p className='text-[#FFEA30] text-[28px] font-semibold'>Super Enalotto</p>
-                                            <p className='font-normal text-[18px] text-white'>Lorem Ipsum is simply dummy text of <br /> the printing and typesetting.</p>
+                                            <p className='font-normal text-[18px] text-white'>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
                                             <button className='bg-[#FF0052] w-[170px] h-[46px] rounded-md mt-2'>
                                                 <p className='font-normal text-[18px] text-white'>Discover now</p>
                                             </button>
@@ -60,7 +60,7 @@ function UpcomingEvents() {
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div className='w-[375px] h-[450px] p-2 relative'>
                                 <div className='relative'>
                                     <img src={Upcoming3} alt="" className='w-full h-[500px]' />
@@ -72,7 +72,7 @@ function UpcomingEvents() {
                                     <div className='absolute bottom-0 left-0 p-4'>
                                         <div className='font-header'>
                                             <p className='text-[#FFEA30] text-[28px] font-semibold'>Lotteries</p>
-                                            <p className='font-normal text-[18px] text-white'>Lorem Ipsum is simply dummy text of <br /> the printing and typesetting.</p>
+                                            <p className='font-normal text-[18px] text-white'>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
                                             <button className='bg-[#FF0052] w-[170px] h-[46px] rounded-md mt-2'>
                                                 <p className='font-normal text-[18px] text-white'>Discover now</p>
                                             </button>
@@ -107,7 +107,7 @@ function UpcomingEvents() {
                                     <div className='absolute bottom-0 left-0 p-4'>
                                         <div className='font-header'>
                                             <p className='text-[#FFEA30] text-[28px] font-semibold'>Estrone lotte</p>
-                                            <p className='font-normal text-[18px] text-white'>Lorem Ipsum is simply dummy text of <br /> the printing and typesetting.</p>
+                                            <p className='font-normal text-[18px] text-white'>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
                                             <button className='bg-[#FF0052] w-[170px] h-[46px] rounded-md mt-2'>
                                                 <p className='font-normal text-[18px] text-white'>Discover now</p>
                                             </button>
@@ -126,7 +126,7 @@ function UpcomingEvents() {
                                     <div className='absolute bottom-0 left-0 p-4'>
                                         <div className='font-header'>
                                             <p className='text-[#FFEA30] text-[28px] font-semibold'>Super Enalotto</p>
-                                            <p className='font-normal text-[18px] text-white'>Lorem Ipsum is simply dummy text of <br /> the printing and typesetting.</p>
+                                            <p className='font-normal text-[18px] text-white'>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
                                             <button className='bg-[#FF0052] w-[170px] h-[46px] rounded-md mt-2'>
                                                 <p className='font-normal text-[18px] text-white'>Discover now</p>
                                             </button>
@@ -145,7 +145,7 @@ function UpcomingEvents() {
                                     <div className='absolute bottom-0 left-0 p-4'>
                                         <div className='font-header'>
                                             <p className='text-[#FFEA30] text-[28px] font-semibold'>Lotteries</p>
-                                            <p className='font-normal text-[18px] text-white'>Lorem Ipsum is simply dummy text of <br /> the printing and typesetting.</p>
+                                            <p className='font-normal text-[18px] text-white'>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
                                             <button className='bg-[#FF0052] w-[170px] h-[46px] rounded-md mt-2'>
                                                 <p className='font-normal text-[18px] text-white'>Discover now</p>
                                             </button>
