@@ -20,7 +20,7 @@ function HeroSection() {
               <p className="text-[#FFFFFF] uppercase font-normal text-[20px] lg:text-[28px] image-text">Genuine Money Transection</p>
             </div>
             <div className='block lg:flex mt-[2rem] lg:mt-[4.4rem]'>
-              <div className="bg-[#232D6A] rounded-xl h-[54px] lg:h-[90px] relative mx-3 flex items-center w-[330px] lg:w-[820px]">
+              <div className="bg-[#232D6A] rounded-xl h-[54px] lg:h-[90px] relative mx-3 flex items-center w-[340px] lg:w-[820px]">
                 <div className="flex flex-wrap justify-center items-center mx-2 lg:mx-1 my-2 container">
                   <div className="w-[60%] flex flex-row items-center">
                     <div className='flex flex-col items-center justify-center mx-2'>
@@ -43,7 +43,7 @@ function HeroSection() {
                   </div>
                 </div>
               </div>
-              <div className="bg-[#232D6A] rounded-xl h-[54px] lg:h-[90px] relative mx-3 flex items-center w-[330px] lg:w-[820px] lg:mt-0 mt-3">
+              <div className="bg-[#232D6A] rounded-xl h-[54px] lg:h-[90px] relative mx-3 flex items-center w-[340px] lg:w-[820px] lg:mt-0 mt-3">
                 <div className="flex flex-wrap justify-center items-center mx-8 my-2 h-[100px] w-full">
                   <div className="w-[25%] flex flex-col items-center justify-center cursor-pointer">
                     <img src={Vinc} alt="" className='lg:w-[58px] w-[38px] h-[32.93px] lg:h-[50px]' />
