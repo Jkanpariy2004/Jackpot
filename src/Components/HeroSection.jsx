@@ -1,12 +1,12 @@
 import React from 'react'
-import HeroImage from "../../public/Images/Hero-Section.png";
-import Roulette from "../../public/Images/Roulette.png";
-import Slot from "../../public/Images/Slot.png";
-import Poker from "../../public/Images/Poker.png";
-import Super from "../../public/Images/super.png";
-import Lotteria from "../../public/Images/lotteria.png";
-import Tombola from "../../public/Images/tombola.png";
-import Vinc from "../../public/Images/vinc.png";
+import HeroImage from "/Images/Hero-Section.png";
+import Roulette from "/Images/Roulette.png";
+import Slot from "/Images/Slot.png";
+import Poker from "/Images/Poker.png";
+import Super from "/Images/super.png";
+import Lotteria from "/Images/lotteria.png";
+import Tombola from "/Images/tombola.png";
+import Vinc from "/Images/vinc.png";
 
 function HeroSection() {
   return (

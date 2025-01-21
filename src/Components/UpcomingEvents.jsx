@@ -1,8 +1,8 @@
 import React from 'react'
-import section from '../../public/Images/Section/Section.png';
-import Upcoming1 from '../../public/Images/Upcoming/Upcoming-img-1.png';
-import Upcoming2 from '../../public/Images/Upcoming/Upcoming-img-2.png';
-import Upcoming3 from '../../public/Images/Upcoming/Upcoming-img-3.png';
+import section from '/Images/Section/Section.png';
+import Upcoming1 from '/Images/Upcoming/Upcoming-img-1.png';
+import Upcoming2 from '/Images/Upcoming/Upcoming-img-2.png';
+import Upcoming3 from '/Images/Upcoming/Upcoming-img-3.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
@@ -16,7 +16,7 @@ function UpcomingEvents() {
                         <p className='text-white image-text text-[24px] md:text-[36px] w-[164.5px] lg:w-[247px] mx-auto'>
                             Upcoming Events
                         </p>
-                        <img src="../../public/Images/Slider/Slider-berder.png" className='mx-auto w-[163.88px] lg:h-[3.94px] lg:w-[246.88px]' alt="" />
+                        <img src="/Images/Slider/Slider-berder.png" className='mx-auto w-[163.88px] lg:h-[3.94px] lg:w-[246.88px]' alt="" />
                     </div>
 
                     <div className="hidden lg:block">

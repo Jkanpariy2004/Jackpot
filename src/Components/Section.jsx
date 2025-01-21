@@ -1,8 +1,8 @@
 import React from 'react';
-import section from '../../public/Images/Section/Section.png';
-import section1 from '../../public/Images/Game-Section/Game-Section-1.png';
-import section2 from '../../public/Images/Game-Section/Game-Section-2.png';
-import section3 from '../../public/Images/Game-Section/Game-Section-3.png';
+import section from '/Images/Section/Section.png';
+import section1 from '/Images/Game-Section/Game-Section-1.png';
+import section2 from '/Images/Game-Section/Game-Section-2.png';
+import section3 from '/Images/Game-Section/Game-Section-3.png';
 
 function Section() {
     return (
@@ -15,7 +15,7 @@ function Section() {
                         <h1 className='text-white image-text font-normal text-[24px] lg:text-[36px] w-[195px] lg:w-[297.87px] sm:w-[292px] mt-[20px] sm:mt-[40px] mx-auto'>
                             MINI - Game Section
                         </h1>
-                        <img src="../../public/Images/Slider/Slider-berder.png" className='mx-auto w-[194.88px] lg:w-[297.88px]' alt="" />
+                        <img src="/Images/Slider/Slider-berder.png" className='mx-auto w-[194.88px] lg:w-[297.88px]' alt="" />
                     </div>
                     <div className='lg:flex justify-center container mx-auto'>
                         <div className='font-header'>

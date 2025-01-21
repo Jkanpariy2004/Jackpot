@@ -3,10 +3,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import slider1 from "../../public/Images/Slider/slider-1.png";
-import slider2 from "../../public/Images/Slider/slider-2.png";
-import slider3 from "../../public/Images/Slider/slider-3.png";
-import slider4 from "../../public/Images/Slider/slider-4.png";
+import slider1 from "/Images/Slider/slider-1.png";
+import slider2 from "/Images/Slider/slider-2.png";
+import slider3 from "/Images/Slider/slider-3.png";
+import slider4 from "/Images/Slider/slider-4.png";
 
 function Slider() {
     const slides = [
@@ -23,7 +23,7 @@ function Slider() {
                 <h1 className='text-[24px] sm:text-[25px] md:text-[30px] lg:text-[36px] font-normal image-text w-[302px] lg:w-[462px] mx-auto text-center'>
                     All Tickets and Games Reviews
                 </h1>
-                <img src="../../public/Images/Slider/Slider-berder.png" className='mx-auto w-[302.38px] lg:w-[462.88px]' alt="" />
+                <img src="/Images/Slider/Slider-berder.png" className='mx-auto w-[302.38px] lg:w-[462.88px]' alt="" />
             </div>
             <div className="container w-full mt-5 mx-auto font-header flex justify-center items-center mb-[9rem] flex-wrap">
                 <Swiper

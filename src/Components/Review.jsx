@@ -3,11 +3,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import Review1 from '../../public/Images/Review/Review-1.png';
-import Review2 from '../../public/Images/Review/Review-2.png';
-import Review3 from '../../public/Images/Review/Review-3.png';
-import Review4 from '../../public/Images/Review/Review-4.png';
-import Review5 from '../../public/Images/Review/Review-5.png';
+import Review1 from '/Images/Review/Review-1.png';
+import Review2 from '/Images/Review/Review-2.png';
+import Review3 from '/Images/Review/Review-3.png';
+import Review4 from '/Images/Review/Review-4.png';
+import Review5 from '/Images/Review/Review-5.png';
 
 function Review() {
     return (
@@ -16,7 +16,7 @@ function Review() {
                 <p className="image-text font-normal text-[24px] lg:text-[36px] w-[293px] lg:w-[435px] mx-auto">
                     Who we review put to the test
                 </p>
-                <img src="../../public/Images/Slider/Slider-berder.png" className='mx-auto w-[293.38px] lg:w-[435.88px]' alt="" />
+                <img src="/Images/Slider/Slider-berder.png" className='mx-auto w-[293.38px] lg:w-[435.88px]' alt="" />
             </div>
             <div className="flex justify-center mt-[2rem] flex-wrap md:flex-nowrap">
                 <Swiper
