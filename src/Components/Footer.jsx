@@ -1,6 +1,6 @@
 import React from 'react'
-import FooterImg1 from '../../public/Images/Footer/Footer-1.png';
-import FooterImg2 from '../../public/Images/Footer/Footer-2.png';
+import FooterImg1 from '/Images/Footer/Footer-1.png';
+import FooterImg2 from '/Images/Footer/Footer-2.png';
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaVimeoV } from "react-icons/fa";

@@ -18,7 +18,10 @@ function Header() {
                 </div>
                 <nav className="hidden md:flex">
                     <ul className="flex space-x-6">
-                        <li className="text-[#FF0052] cursor-pointer border-b-2 border-[#FF0052]">Section 1</li>
+                        <li className="text-[#FF0052] cursor-pointer">
+                            Section 1
+                            <img src="/Images/Header-border.png" alt="" className='w-[67px]' />
+                        </li>
                         <li className="hover:text-[#FF0052] cursor-pointer font-logo">Section 2</li>
                         <li className="hover:text-[#FF0052] cursor-pointer font-logo">Section 3</li>
                         <li className="hover:text-[#FF0052] cursor-pointer font-logo">About Us</li>

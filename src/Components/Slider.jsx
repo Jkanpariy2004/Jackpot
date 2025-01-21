@@ -3,10 +3,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import slider1 from "../../public/Images/Slider/slider-1.png";
-import slider2 from "../../public/Images/Slider/slider-2.png";
-import slider3 from "../../public/Images/Slider/slider-3.png";
-import slider4 from "../../public/Images/Slider/slider-4.png";
+import slider1 from "/Images/Slider/slider-1.png";
+import slider2 from "/Images/Slider/slider-2.png";
+import slider3 from "/Images/Slider/slider-3.png";
+import slider4 from "/Images/Slider/slider-4.png";
 
 function Slider() {
     const slides = [
@@ -14,14 +14,16 @@ function Slider() {
         { img: slider2, title: "Review 2" },
         { img: slider3, title: "Review 3" },
         { img: slider4, title: "Review 4" },
+        { img: slider1, title: "Review 5" },
     ];
 
     return (
         <div className='mt-[6rem] lg:mt-[5rem]'>
             <div className='w-full'>
-                <h1 className='text-[24px] sm:text-[25px] md:text-[30px] lg:text-[36px] font-normal image-text border-b-2 w-[302px] lg:w-[462px] border-[#FF0052] mx-auto text-center'>
+                <h1 className='text-[24px] sm:text-[25px] md:text-[30px] lg:text-[36px] font-normal image-text w-[302px] lg:w-[462px] mx-auto text-center'>
                     All Tickets and Games Reviews
                 </h1>
+                <img src="/Images/Slider/Slider-berder.png" className='mx-auto w-[302.38px] lg:w-[462.88px]' alt="" />
             </div>
             <div className="container w-full mt-5 mx-auto font-header flex justify-center items-center mb-[9rem] flex-wrap">
                 <Swiper
@@ -76,7 +78,7 @@ function Slider() {
                                         </p>
                                     </div>
                                     <div className="w-full flex justify-center mt-5">
-                                        <button className='bg-[#FF0052] text-white rounded-lg w-[155px] h-[48px]'>CTA</button>
+                                        <button className='bg-[#FF0052] shadow-[0_4px_6px_#B1013A] hover:shadow-none hover:transform hover:scale-95 transition-all duration-300 text-white rounded-lg w-[155px] h-[48px]'>CTA</button>
                                     </div>
                                 </div>
                             </div>

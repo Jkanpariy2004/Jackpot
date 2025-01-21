@@ -1,12 +1,12 @@
 import React from 'react'
-import HeroImage from "../../public/Images/Hero-Section.png";
-import Roulette from "../../public/Images/Roulette.png";
-import Slot from "../../public/Images/Slot.png";
-import Poker from "../../public/Images/Poker.png";
-import Super from "../../public/Images/super.png";
-import Lotteria from "../../public/Images/lotteria.png";
-import Tombola from "../../public/Images/tombola.png";
-import Vinc from "../../public/Images/vinc.png";
+import HeroImage from "/Images/Hero-Section.png";
+import Roulette from "/Images/Roulette.png";
+import Slot from "/Images/Slot.png";
+import Poker from "/Images/Poker.png";
+import Super from "/Images/super.png";
+import Lotteria from "/Images/lotteria.png";
+import Tombola from "/Images/tombola.png";
+import Vinc from "/Images/vinc.png";
 
 function HeroSection() {
   return (
@@ -37,9 +37,10 @@ function HeroSection() {
                     </div>
                   </div>
                   <div className="w-[40%] flex flex-col items-center justify-center">
-                    <button className='w-[95px] lg:w-[170px] h-[27px] lg:h-[46px] rounded-sm lg:rounded-lg bg-[#FF0052]'>
+                    <button className='w-[95px] lg:w-[170px] h-[27px] lg:h-[46px] rounded-sm lg:rounded-lg bg-[#FF0052] shadow-[0_4px_6px_#B1013A] hover:shadow-none hover:transform hover:scale-95 transition-all duration-300'>
                       <p className='font-header font-normal text-[12px] lg:text-[18px] text-white'>Discover now</p>
                     </button>
+
                   </div>
                 </div>
               </div>
