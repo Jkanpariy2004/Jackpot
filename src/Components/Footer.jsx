@@ -22,10 +22,10 @@ function Footer() {
                         </div>
                         <div className="flex gap-4 lg:mb-0 mb-4">
                             <div>
-                                <img src={FooterImg2} alt="" className='w-[61.29px] h-[40px]' />
+                                <img src={FooterImg2} alt="" className='w-[42.9px] lg:w-[61.29px] h-[28px] lg:h-[40px]' />
                             </div>
                             <div>
-                                <img src={FooterImg1} alt="" className='w-[96px] h-[40px]' />
+                                <img src={FooterImg1} alt="" className='w-[67.2px] lg:w-[96px] h-[28px] lg:h-[40px]' />
                             </div>
                         </div>
                         <div>
