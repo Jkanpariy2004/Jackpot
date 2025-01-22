@@ -8,7 +8,7 @@ function Header() {
     }
 
     return (
-        <header className="bg-[#162149] text-white">
+        <header className="fixed top-0 w-full bg-[#162149] text-white z-50">
             <div className="container mx-auto flex justify-between items-center h-[68px] lg:h-[100px]">
                 <div className="text-2xl font-bold">
                     <p className='font-normal text-[20px] font-logo sm:text-[20px] md:text-[35px]'>

@@ -10,7 +10,7 @@ import Vinc from "/Images/vinc.png";
 
 function HeroSection() {
   return (
-    <div>
+    <div className='mt-[4.2rem] lg:mt-[6.2rem]'>
       <img src={HeroImage} alt="" className="w-full h-[440px] object-cover lg:object-fill lg:h-[510px] absolute" />
       <div className="flex flex-wrap lg:flex-nowrap relative">
         <div className="hero-1 w-full lg:w-[80%]">
