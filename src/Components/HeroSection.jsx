@@ -19,44 +19,44 @@ function HeroSection() {
               <h1 className="text-[#FFEA30] text-[25px] lg:text-[60px] font-medium image-text">Welcome to <br /> Online Casino</h1>
               <p className="text-[#FFFFFF] uppercase font-normal text-[20px] lg:text-[28px] image-text">Genuine Money Transection</p>
             </div>
-            <div className="hero-3 w-full lg:w-[20%] mt-[1rem] lg:hidden">
-              <div className="flex flex-wrap justify-start">
-                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mr-2 mt-2">
+            <div className="hero-3 lg:w-[20%] ml-3 mt-[1rem] lg:hidden">
+              <div className="flex flex-wrap justify-start gap-2">
+                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mt-2">
                   <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">1</p>
                 </div>
-                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mr-2 mt-2">
+                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mt-2">
                   <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">2</p>
                 </div>
-                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mr-2 mt-2">
+                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mt-2">
                   <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">3</p>
                 </div>
-                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mr-2 mt-2">
+                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mt-2">
                   <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">4</p>
                 </div>
-                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mr-2 mt-2">
+                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mt-2">
                   <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">5</p>
                 </div>
-                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mr-2 mt-2">
+                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mt-2">
                   <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">6</p>
                 </div>
               </div>
-              <div className="flex flex-wrap justify-start">
-                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mr-2 mt-2">
+              <div className="flex flex-wrap justify-start gap-2">
+                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mt-2">
                   <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">7</p>
                 </div>
-                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mr-2 mt-2">
+                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mt-2">
                   <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">8</p>
                 </div>
-                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mr-2 mt-2">
+                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mt-2">
                   <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">9</p>
                 </div>
-                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mr-2 mt-2">
+                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mt-2">
                   <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">10</p>
                 </div>
-                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mr-2 mt-2">
+                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mt-2">
                   <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">11</p>
                 </div>
-                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mr-2 mt-2">
+                <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mt-2">
                   <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">12</p>
                 </div>
               </div>
@@ -105,51 +105,51 @@ function HeroSection() {
           </div>
         </div>
         <div className="hero-3 w-full hidden lg:block lg:w-[20%]">
-          <div className="flex flex-wrap justify-end cursor-pointer">
-            <div className="lg:h-[73px] h-[27px] w-[40px]  lg:w-[106px] box font-[45px] mr-2 mt-2">
+          <div className="flex flex-wrap justify-end cursor-pointer gap-2">
+            <div className="lg:h-[73px] h-[27px] w-[40px]  lg:w-[106px] box font-[45px] mt-2">
               <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">1</p>
             </div>
-            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mr-2 mt-2">
+            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mt-2">
               <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">2</p>
             </div>
           </div>
-          <div className="flex flex-wrap justify-end cursor-pointer">
-            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mr-2 mt-2">
+          <div className="flex flex-wrap justify-end cursor-pointer gap-2">
+            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mt-2">
               <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">3</p>
             </div>
-            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mr-2 mt-2">
+            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mt-2">
               <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">4</p>
             </div>
           </div>
-          <div className="flex flex-wrap justify-end cursor-pointer">
-            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mr-2 mt-2">
+          <div className="flex flex-wrap justify-end cursor-pointer gap-2">
+            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mt-2">
               <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">5</p>
             </div>
-            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mr-2 mt-2">
+            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mt-2">
               <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">6</p>
             </div>
           </div>
-          <div className="flex flex-wrap justify-end cursor-pointer">
-            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mr-2 mt-2">
+          <div className="flex flex-wrap justify-end cursor-pointer gap-2">
+            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mt-2">
               <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">7</p>
             </div>
-            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mr-2 mt-2">
+            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mt-2">
               <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">8</p>
             </div>
           </div>
-          <div className="flex flex-wrap justify-end cursor-pointer">
-            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mr-2 mt-2">
+          <div className="flex flex-wrap justify-end cursor-pointer gap-2">
+            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mt-2">
               <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">9</p>
             </div>
-            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mr-2 mt-2">
+            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mt-2">
               <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">10</p>
             </div>
           </div>
-          <div className="flex flex-wrap justify-end cursor-pointer">
-            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mr-2 mt-2">
+          <div className="flex flex-wrap justify-end cursor-pointer gap-2">
+            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mt-2">
               <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">11</p>
             </div>
-            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mr-2 mt-2">
+            <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box-red font-[45px] mt-2">
               <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">12</p>
             </div>
           </div>
