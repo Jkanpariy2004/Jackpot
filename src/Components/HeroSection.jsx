@@ -19,7 +19,7 @@ function HeroSection() {
               <h1 className="text-[#FFEA30] text-[25px] lg:text-[60px] font-medium image-text">Welcome to <br /> Online Casino</h1>
               <p className="text-[#FFFFFF] uppercase font-normal text-[20px] lg:text-[28px] image-text">Genuine Money Transection</p>
             </div>
-            <div className="hero-3 w-full lg:w-[20%] mx-3 mt-[1rem] lg:hidden">
+            <div className="hero-3 w-full lg:w-[20%] mt-[1rem] lg:hidden">
               <div className="flex flex-wrap justify-start">
                 <div className="lg:h-[73px] h-[27px] w-[40px] lg:w-[106px] box font-[45px] mr-2 mt-2">
                   <p className="text-white font-medium text-[18px] lg:text-[45px] font-header">1</p>
