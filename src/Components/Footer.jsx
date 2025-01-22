@@ -30,10 +30,10 @@ function Footer() {
                         </div>
                         <div>
                             <ul className='flex lg:gap-0 gap-5 md:space-y-0 md:space-x-9'>
-                                <li className='text-[13px]'>About Us</li>
-                                <li className='text-[13px]'>Discover</li>
-                                <li className='text-[13px]'>Explore</li>
-                                <li className='text-[13px]'>Blogs</li>
+                                <li className='text-[13px] cursor-pointer'>About Us</li>
+                                <li className='text-[13px] cursor-pointer'>Discover</li>
+                                <li className='text-[13px] cursor-pointer'>Explore</li>
+                                <li className='text-[13px] cursor-pointer'>Blogs</li>
                             </ul>
                         </div>
                     </div>

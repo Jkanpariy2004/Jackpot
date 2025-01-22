@@ -30,8 +30,8 @@ function Header() {
                 </nav>
                 <div className="md:hidden flex items-center">
                     <button onClick={toggleMenu} className="text-white focus:outline-none">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-6 w-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.75 6.75H20.25M6.75 12H20.25M10.75 17.25H20.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </button>
                 </div>
@@ -39,7 +39,10 @@ function Header() {
 
             <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
                 <ul className="flex flex-col items-center bg-[#162149] py-4 space-y-4">
-                    <li className="text-[#FF0052] cursor-pointer">Section 1</li>
+                    <li className="text-[#FF0052] cursor-pointer">
+                        Section 1
+                        <img src="/Images/Header-border.png" alt="" className='w-[67px]' />
+                    </li>
                     <li className="hover:text-[#FF0052] cursor-pointer font-logo">Section 2</li>
                     <li className="hover:text-[#FF0052] cursor-pointer font-logo">Section 3</li>
                     <li className="hover:text-[#FF0052] cursor-pointer font-logo">About Us</li>
