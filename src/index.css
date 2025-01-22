@@ -25,7 +25,7 @@
 
 @font-face {
     font-family: 'First Job';
-    src: url('../public/fonts/first_job/First Job DEMO.ttf') format('truetype');
+    src: url('/fonts/first_job/First Job DEMO.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
